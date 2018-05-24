@@ -1,0 +1,49 @@
+html { height: 100%  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a4f54;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1{ font-weight:bold; font-size: 70px; color: #D9347E; font-family: Helvetica;  }
+h2{ font-weight:bold; font-size: 40px; color: #2980b9; font-family: Helvetica;  }
+textarea , .tbl{
+    width: 600px;
+    height: 160px;
+    background-color: #faf5f8;
+    border: 3px solid #2980b9;
+    padding: 5px;
+    bgcolor: #ffffff;
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+}
+
+.buttons .apply {
+  background: #d9347e;
+  background-image: -webkit-linear-gradient(top, #d9347e, #2980b9);
+  background-image: -moz-linear-gradient(top, #d9347e, #2980b9);
+  background-image: -ms-linear-gradient(top, #d9347e, #2980b9);
+  background-image: -o-linear-gradient(top, #d9347e, #2980b9);
+  background-image: linear-gradient(to bottom, #d9347e, #2980b9);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #faf5f8;
+  font-size: 10px;
+  padding: 8px 16px 8px 16px;
+  border: solid #6c6294 2px;
+  text-decoration: none;
+}
+
+.buttons .apply:hover {
+  background: #bc3cfc;
+  background-image: -webkit-linear-gradient(top, #bc3cfc, #3f34d9);
+  background-image: -moz-linear-gradient(top, #bc3cfc, #3f34d9);
+  background-image: -ms-linear-gradient(top, #bc3cfc, #3f34d9);
+  background-image: -o-linear-gradient(top, #bc3cfc, #3f34d9);
+  background-image: linear-gradient(to bottom, #bc3cfc, #3f34d9);
+  text-decoration: none;
+}
